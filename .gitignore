@@ -1,0 +1,15 @@
+# Folder zawierający pakiety
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+node_modules/
+.tmp/
+.idea/
