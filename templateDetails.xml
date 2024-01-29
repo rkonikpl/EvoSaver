@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension type="template" client="site">
+    <name>EvoSaver</name>
+    <version>1.0.0</version>
+    <creationDate>2024-01</creationDate>
+    <author>rKonik Rafał Kobyliński</author>
+    <authorEmail>bok@rkonik.com</authorEmail>
+    <copyright>(C) 2024 rKonik Rafał Kobyliński</copyright>
+    <description>TPL_EVOSAVER_XML_DESCRIPTION</description>
+    <files>
+        <filename>component.php</filename>
+        <filename>error.php</filename>
+        <filename>index.php</filename>
+        <filename>offline.php</filename>
+        <filename>templateDetails.xml</filename>
+    </files>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/tpl_evosaver.ini</language>
+        <language tag="en-GB">en-GB/tpl_evosaver.sys.ini</language>
+        <language tag="pl-PL">pl-PL/tpl_evosaver.ini</language>
+        <language tag="pl-PL">pl-PL/tpl_evosaver.sys.ini</language>
+    </languages>
+</extension>
