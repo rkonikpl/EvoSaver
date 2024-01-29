@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <extension type="template" client="site">
-    <name>EvoSaver</name>
+    <name>evosaver</name>
     <version>1.0.0</version>
     <creationDate>2024-01</creationDate>
     <author>rKonik Rafał Kobyliński</author>
