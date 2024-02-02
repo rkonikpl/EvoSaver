@@ -11,15 +11,18 @@ if (file_exists(__DIR__ . "/helper.php")) {
     require_once __DIR__ . "/helper.php";
 }
 
+$this->setMetaData('viewport', 'width=device-width, initial-scale=1.0');
+
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $this->language; ?>" dir="<?php echo $this->direction; ?>">
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>EvoSaver</title>
+        <jdoc:include type="metas" />
+        <jdoc:include type="styles" />
+        <jdoc:include type="scripts" />
 	</head>
-	<body>
-
+	<body class="">
+        <jdoc:include type="message" />
+        <jdoc:include type="component" />
 	</body>
 </html>
