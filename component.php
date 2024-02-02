@@ -6,3 +6,5 @@
  */
 
 defined('_JEXEC') or die;
+
+echo "Component page";
