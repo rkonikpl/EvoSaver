@@ -14,6 +14,12 @@
         <filename>offline.php</filename>
         <filename>templateDetails.xml</filename>
     </files>
+    <media destination="templates/site/evosaver" folder="media">
+        <folder>css</folder>
+        <folder>images</folder>
+        <folder>js</folder>
+        <folder>scss</folder>
+    </media>
     <languages folder="language">
         <language tag="en-GB">en-GB/tpl_evosaver.ini</language>
         <language tag="en-GB">en-GB/tpl_evosaver.sys.ini</language>
