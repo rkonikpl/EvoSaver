@@ -7,6 +7,9 @@
     <authorEmail>bok@rkonik.com</authorEmail>
     <copyright>(C) 2024 rKonik Rafał Kobyliński</copyright>
     <description>TPL_EVOSAVER_XML_DESCRIPTION</description>
+
+    <namespace path="src">Joomla\Template\EvoSaver</namespace>
+
     <files>
         <filename>component.php</filename>
         <filename>error.php</filename>
@@ -26,4 +29,23 @@
         <language tag="pl-PL">pl-PL/tpl_evosaver.ini</language>
         <language tag="pl-PL">pl-PL/tpl_evosaver.sys.ini</language>
     </languages>
+
+    <config>
+        <fields name="params">
+            <fieldset
+                    name="cos"
+                    label="Test"
+                    description="test description"
+            >
+                <field
+                    name="logoFile"
+                    type="media"
+                    default=""
+                    label="logo File label"
+                />
+
+            </fieldset>
+
+        </fields>
+    </config>
 </extension>
